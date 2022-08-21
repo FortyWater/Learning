@@ -1,0 +1,89 @@
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ 
+html {
+	font-family: "Microsoft Yahei";
+	font-size: 16px;
+	background-color: #eeeee;
+}
+ 
+.clear:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+	overflow: hidden;
+}
+ 
+.clear {
+	zoom: 1;
+}
+ 
+li {
+	list-style: none;
+}
+ 
+a {
+	text-decoration: none;
+	cursor: pointer;
+	color: #737373;
+}
+ 
+img {
+	vertical-align: top;
+	border: 0;
+}
+/**********footer**********/
+.xf_footer{
+	height: 146px;
+	background: #3e2d23;
+}
+footer{
+	width: 1251px;
+	height: 125px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+footer .footer1{
+	overflow: hidden;
+}
+footer .footer1 .msg{
+	margin-top: 37px;
+	margin-left: 8px;
+	float: left;
+}
+footer .footer1 .msg >a{
+	color: #fff;
+	padding-left: 12px;
+	padding-right: 28px;
+	border-right: 1px solid #b3a59c;
+}
+footer .footer1 .msg >a:last-child{
+	border: 0;
+}
+footer .footer1 .tel{
+	float: right;
+	margin-top: 37px;
+	margin-left: 56px;
+}
+footer .footer1 .tel a{
+	margin-right: 16px;
+	color: #fff;
+}
+footer .footer1 .tel a img{
+	float: left;
+	margin-right: 3px;
+}
+footer .footer2{
+	text-align: center;
+	margin-top: 34px;
+	color: #fff;
+}
+footer .footer2 .copyright span{
+	margin-right: 24px;
+}
